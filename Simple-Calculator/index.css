@@ -1,0 +1,72 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(99, 96, 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+    .Heading {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    }
+    h1 {
+    color:grey;
+    font-size: 24px;
+margin-bottom: 20px;
+}
+/* Styling input */
+.input section {
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+}
+input {
+padding: 10px;
+font-size: 16px;
+border: 1px solid white;
+border-radius: 5px;
+margin-bottom: 10px;
+width: 100%;
+box-sizing: border-box;
+}
+input:focus {
+border-color: crimson;
+outline: none;
+}
+/* Buttons styling */
+.buttons {
+margin-bottom: 20px;
+}
+button {
+padding: 10px;
+font-size: 18px;
+width: 60px;
+border: none;
+background-color: crimson;
+color: white;
+border-radius: 5px;
+margin: 5px;
+cursor: pointer;
+}
+button:hover {
+    background-color: rgb(196, 193, 193);
+}
+button:active {
+background-color:rgb(231, 71, 132);
+}
+/* Result styling */
+.result h2 {
+font-size: 20px;
+color: grey;
+}
+#result {
+font-weight: bold;
+font-size: 24px;
+color:crimson;
+}
